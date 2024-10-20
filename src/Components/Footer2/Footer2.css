@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gallient';
+    src: url('/src/components/Footer2/Fonts/Gallient.ttf') format('truetype');
+}
+
+.footer2 {
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Gallient', serif;
+    font-size: 8rem;
+    font-weight: 250;
+    margin-bottom: 10px;
+}

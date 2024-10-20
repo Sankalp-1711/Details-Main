@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 200px; /* Increased width for better fit */
+    margin: 2rem auto;
+}
+
+.pagination__item {
+    margin: 1rem 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+/* Style for active page */
+.pagination__item.active {
+    color: black;
+    border-bottom: 2px solid black; /* Highlight the active page */
+}
+
+.pagination__arrow {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pagination__line {
+    position: absolute;
+    bottom: -10px; /* Moved a bit lower to make space */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #e0e0e0;
+    color: white;
+}
+
+.pagination__line--active {
+    height: 2px;
+    background-color: black;
+    width: 0; /* This will be dynamically controlled by inline styles */
+    transition: width 0.3s ease; /* Smooth transition for progress */
+}

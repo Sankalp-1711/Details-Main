@@ -1,0 +1,157 @@
+
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Urbanist';
+  font-size: 14px;
+  margin: -5px 0px 0px 0px;
+}
+
+.footer__top {
+  border-bottom: 1px solid #333;
+}
+
+.footer__top .footer-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__top .footer-start .footer__locator {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer__top__logo {
+  flex: 1;
+}
+
+.footer__top__logo p {
+  font-family: 'Serif', serif;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer__top__logo small {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.footer__top h3 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer__top ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__top ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer__top ul li:hover {
+  text-decoration: underline;
+}
+
+.footer__bottom {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.footer__bottom p {
+  margin: 0;
+}
+
+.footer__bottom .footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.footer__bottom .footer-social .social_logo {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .footer {
+      padding: 20px;
+  }
+
+  .footer__top {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer__top .footer-start {
+      flex-direction: column;
+  }
+
+  .footer__top .footer__logo img {
+      width: 120px;
+  }
+
+  .footer__top .footer__logo {
+      margin-bottom: 20px;
+  }
+
+  .footer__top h3 {
+      font-size: 1rem;
+  }
+
+  .footer__top ul li {
+      font-size: 0.9rem;
+  }
+
+  .footer__top .footer__locator {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer__top .footer__locator button {
+      width: 100%;
+      margin-bottom: 15px;
+      height: 45px;
+      border-radius: 2px;
+  }
+
+  .footer__bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer__bottom p {
+      margin-bottom: 10px;
+  }
+
+  .footer__bottom .footer-social {
+      gap: 1rem;
+  }
+
+  .footer__bottom .footer-social .social_logo {
+      border: 1px solid white;
+      border-radius: 50%;
+      padding: 0.3rem;
+  }
+}
+
+  
